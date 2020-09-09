@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #46658C;
+  padding: 10px;
+  color: white;
+}
+
+.logo {
+  border: 2px solid #E9ECF2;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.logo span {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.navigate ul{
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+}
+
+.listItem + .listItem {
+  margin-left: 20px;
+}
